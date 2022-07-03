@@ -1,0 +1,12 @@
+make: Entering directory '/home/mohamed/Downloads/upwork/DevOps/word-cloud-generator'
+echo "Cleaning up previous builds"
+go clean
+rm -rf ./artifacts/*
+go test $(go list ./...|grep -v vendor) -v
+echo "Creating compiled builds in ./artifacts"
+env GOOS=darwin GOARCH=amd64 go build -o ./artifacts/osx/word-cloud-generator -v .
+env GOOS=linux GOARCH=amd64 go build -o ./artifacts/linux/word-cloud-generator -v .
+env GOOS=windows GOARCH=amd64 go build -o ./artifacts/windows/word-cloud-generator -v .
+ls -lR ./artifacts
+make: Leaving directory '/home/mohamed/Downloads/upwork/DevOps/word-cloud-generator'
+ 

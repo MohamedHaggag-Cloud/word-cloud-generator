@@ -1,0 +1,1 @@
+{"buildTargets":["all","build","clean","fmt","git-hooks","goconvey","goconvey-install","install","integration","lint","run","start-mac","test","uninstall","vet"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
