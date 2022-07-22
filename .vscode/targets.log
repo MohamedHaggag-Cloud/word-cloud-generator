@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Jul  3 15:02:34 2022
+# Make data base, printed on Fri Jul 22 15:03:22 2022
 
 # Variables
 
@@ -49,7 +49,7 @@ VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupp
 # environment
 _ = /usr/share/code/code
 # environment
-JOURNAL_STREAM = 8:47288
+JOURNAL_STREAM = 8:49334
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile (from 'Makefile', line 1)
@@ -67,17 +67,21 @@ MAKELEVEL := 0
 # environment
 XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-MANAGERPID = 1960
+MANAGERPID = 2156
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
 LC_NAME = en_US.UTF-8
 # environment
 VSCODE_CWD = /home/mohamed
+# environment
+GOPROXY = https://proxy.golang.org,direct
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
@@ -87,9 +91,11 @@ GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-SESSION_MANAGER = local/mohamed-Inspiron-3542:@/tmp/.ICE-unix/2211,unix/mohamed-Inspiron-3542:/tmp/.ICE-unix/2211
+SESSION_MANAGER = local/mohamed-Inspiron-3542:@/tmp/.ICE-unix/2406,unix/mohamed-Inspiron-3542:/tmp/.ICE-unix/2406
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GOPATH = /home/mohamed/go
 # environment
 CONDA_PREFIX = /home/mohamed/anaconda3
 # environment
@@ -99,7 +105,7 @@ VSCODE_LOG_STACK = false
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 352beb6c59b7469bbcab5703fa48d1f7
+INVOCATION_ID = 64bc7814d5824553915b2f0b1b6c38d3
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -109,7 +115,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 38152
+GIO_LAUNCHED_DESKTOP_FILE_PID = 6961
 # automatic
 %F = $(notdir $%)
 # environment
@@ -123,13 +129,13 @@ PWD = /home/mohamed/Downloads/upwork/DevOps/word-cloud-generator
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 2174
+SSH_AGENT_PID = 2369
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
 GTK_MODULES = gail:atk-bridge
 # environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+GOMODCACHE = /home/mohamed/go/pkg/mod
 # environment
 HOME = /home/mohamed
 # environment
@@ -167,7 +173,7 @@ SHLVL = 0
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-55140f49-b7b9-4424-869e-ee68519a63eb.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-90f9790b-4cf3-404b-ac0a-c6328659faac.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -241,11 +247,11 @@ LC_ADDRESS = en_US.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 38152
+VSCODE_PID = 6961
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
-# Load=117/1024=11%, Rehash=0, Collisions=20/146=14%
+# Load=120/1024=12%, Rehash=0, Collisions=21/149=14%
 
 # Pattern-specific Variable Values
 
@@ -272,6 +278,7 @@ goconvey:
 
 all: clean test build
 #  Phony target (prerequisite of .PHONY).
+ 
 #  Command line target.
 #  Implicit rule search has not been done.
 #  File does not exist.
@@ -295,7 +302,6 @@ integration:
 start-mac: build
 #  Implicit rule search has not been done.
 #  Modification time never checked.
- 
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 24):
 	./artifacts/osx/word-cloud-generator
@@ -444,6 +450,6 @@ install:
 # strcache performance: lookups = 70 / hit rate = 45%
 # hash-table stats:
 # Load=38/8192=0%, Rehash=0, Collisions=1/70=1%
-# Finished Make data base on Sun Jul  3 15:02:34 2022
+# Finished Make data base on Fri Jul 22 15:03:22 2022
 
  
